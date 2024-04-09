@@ -1,0 +1,38 @@
+.contenedor-loader{
+    display:flex;
+    justify-content: center;
+}
+.contenedor-load{ //
+    background-color: white;
+    display: grid;
+    place-content: center;
+    height: 50vh;
+    color: #000;
+
+}
+.cargando-loader{
+    position: relative;
+    color: lightslategray;
+    margin-top: 2em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase
+}
+
+.rueda-loader {
+    border: 10px solid rgba(62, 162, 59, .3);
+    border-radius: 50%;
+    border-left-color: transparent;
+    width: 80px;
+    height: 80px;
+    animation: giro-loader 1s linear infinite;
+}
+
+@keyframes giro-loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

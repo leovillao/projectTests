@@ -1,0 +1,21 @@
+.cuadro {
+    background: white;
+    border: 1px solid transparent;
+}
+
+.cuadro-remove {
+    background: white;
+    color: red;
+    border: 1px solid transparent;
+}
+
+.cuadro-remove:hover {
+    background: #e1e1e1;
+    border: 1px solid #d0d0d0;
+}
+
+.cuadro:hover {
+    background: #e1e1e1;
+    border: 1px solid #d0d0d0;
+}
+

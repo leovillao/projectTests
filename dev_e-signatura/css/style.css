@@ -1,0 +1,21 @@
+.btn-btn-piramide{
+    background: #118012 !important;
+    color: white !important;
+
+}
+.btn-btn-piramide:hover{
+    background: #0C5C0D !important;
+}
+
+.btn-btn-p{
+    background: #239E2D !important;
+    color: white !important;
+
+}
+.btn-btn-p:hover{
+    background: #0C5C0D !important;
+}
+
+.textMayusculas{
+    text-transform: uppercase;
+}
